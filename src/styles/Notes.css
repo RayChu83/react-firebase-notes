@@ -1,0 +1,66 @@
+#loading-container{
+    background-image: url(https://forum.keyboardmaestro.com/uploads/default/original/3X/2/d/2d2fc0f947940f98c21afafef39ecf226a2e8d55.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 150px;
+    height: 100px;
+    margin: 50px auto;
+}
+#note-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0 20px 0;
+}
+#input-body{
+    border-radius: 5px 0 0 5px;
+    margin: 0;
+}
+#btn-add{
+    border-radius: 0 5px 5px 0;
+    background-color: #88acc0;
+    border: none;
+    color: white;
+    height: 2.5em;
+    padding: 9px;
+    font-size: 20px;
+    cursor: pointer;
+    transition-duration: 0.1s;
+}
+#btn-add:hover{
+    background-color: #71a8c5;
+}
+.note{
+    width: 500px;
+    margin: 15px auto;
+    background-color: #d5bdaf;
+    padding: 20px;
+    border-radius: 5px;
+}
+.note-creation{
+    font-weight: bold;
+}
+.note-action-btn{
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+    color: white;
+}
+.delete-note{
+    background-color: #d49090;
+    transition: 0.1s;
+}
+.delete-note:hover{
+    background-color: #b36969;
+}
+.update-note{
+    background-color: #cfb776;
+    transition: 0.1s;
+}
+.update-note:hover{
+    background-color: #b9a15d;
+}
